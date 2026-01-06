@@ -37,6 +37,9 @@
   <?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
+	<header>
+		<?php get_template_part( 'template-parts/menu' );?>
+	</header>
 	<main>
-		<div><?php dynamic_sidebar( 'top-widget' );?></div>
+		<!-- <div><?php dynamic_sidebar( 'top-widget' );?></div> -->
 

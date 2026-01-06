@@ -7,3 +7,37 @@
 	color: white;
 	background: #9e852e;
 }
+
+html,
+body {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+
+header {
+	background-color: steelblue;
+	color: #fff;
+}
+main {
+	background-color: white;
+	color: #000;
+	flex: 1;
+}
+footer {
+	background-color: steelblue;
+	color: #fff;
+}
+
+// Ocultar metadatos de publicación y categorías
+.entry-meta,
+.posted-on,
+.cat-links,
+.entry-footer .posted-on,
+.entry-footer .cat-links {
+	display: none !important;
+}
+
+.entry-footer {
+	display: none !important;
+}
