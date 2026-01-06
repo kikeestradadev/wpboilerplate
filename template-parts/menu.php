@@ -11,7 +11,7 @@ if ( $menu ) {
 	$menu_items = wp_get_nav_menu_items( $menu->term_id );
 	
 	if ( $menu_items ) {
-		echo '<ul>';
+		echo '<ul class="main-menu">';
 		foreach ( $menu_items as $item ) {
 			echo '<li><a href="' . esc_url( $item->url ) . '">' . esc_html( $item->title ) . '</a></li>';
 		}

@@ -1,0 +1,26 @@
+// Main Menu Styles
+.main-menu {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	gap: 1.5rem;
+
+	li {
+		margin: 0;
+		padding: 0;
+	}
+
+	a {
+		color: #fff;
+		text-decoration: none;
+		padding: 0.5rem 1rem;
+		display: block;
+		transition: opacity 0.3s ease;
+
+		&:hover {
+			opacity: 0.8;
+		}
+	}
+}
+
